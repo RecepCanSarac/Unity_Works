@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ecf9c89880276b4fa9b3a1d94d8f799
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/OneHand_Up_Run_F_InPlace.controller
+  uploadId: 704351

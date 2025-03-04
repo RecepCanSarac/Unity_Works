@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d04438563b40794b9fdb0407be7fe04
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/Ladder_Down_End.controller
+  uploadId: 704351

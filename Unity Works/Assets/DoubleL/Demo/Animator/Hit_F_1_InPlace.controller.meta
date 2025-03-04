@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e4a3caa3c4b1e24299aafffa1b517ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/Hit_F_1_InPlace.controller
+  uploadId: 704351

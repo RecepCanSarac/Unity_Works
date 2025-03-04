@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dd3da2f654bb69449f7b7da5ac20631
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/OneHand_Up_Walk_R_InPlace.controller
+  uploadId: 704351

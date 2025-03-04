@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1697c4e0d3575a44bfbe5e90ca8987c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/OneHand_Up_Jump_B.controller
+  uploadId: 704351

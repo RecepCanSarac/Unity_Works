@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6053b9d9cdaf06143a9285ec5a689b39
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/OneHand_Up_Shield_Block_Hit_1.controller
+  uploadId: 704351

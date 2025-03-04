@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb77bb90f30fb474dad140c1551dc94c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/OneHand_Up_Attack_B_3.controller
+  uploadId: 704351

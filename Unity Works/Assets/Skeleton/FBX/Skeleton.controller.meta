@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b96483bad95afb5469743561c4bdaace
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298650
+  packageName: Stylized Free Skeleton
+  packageVersion: 1.0
+  assetPath: Assets/Skeleton/FBX/Skeleton.controller
+  uploadId: 699159

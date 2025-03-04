@@ -2,48 +2,56 @@ using UnityEngine;
 
 public class PortalTeleporter : MonoBehaviour
 {
-    public Transform player;
-    public Transform reciever;
+    public Transform player;  // Oyuncunun Transform bileþeni
+    public Transform reciever; // Hedef portalýn Transform bileþeni
 
     private bool playerIsOverlapping = false;
 
-    // Update is called once per frame
     void Update()
     {
         if (playerIsOverlapping)
         {
             Vector3 portalToPlayer = player.position - transform.position;
-            float dotProduct = Vector3.Dot(transform.up, portalToPlayer);
+            float dotProduct = Vector3.Dot(transform.forward, portalToPlayer);
 
-            // If this is true: The player has moved across the portal
-            if (dotProduct < 0f)
+            if (dotProduct < 0f) // Oyuncu portaldan geçiyorsa
             {
-                // Teleport him!
-                float rotationDiff = -Quaternion.Angle(transform.rotation, reciever.rotation);
-                rotationDiff += 180;
-                player.Rotate(Vector3.up, rotationDiff);
+                Debug.Log("Teleporting player to receiver...");
 
-                Vector3 positionOffset = Quaternion.Euler(0f, rotationDiff, 0f) * portalToPlayer;
-                player.position = reciever.position + positionOffset;
+                // Oyuncunun portaldaki konumunu receiver'daki karþýlýðýna çevir
+                Vector3 localPosition = transform.InverseTransformPoint(player.position);
+                Vector3 newPosition = reciever.TransformPoint(localPosition);
+                newPosition += reciever.forward * 1.0f; // Oyuncuyu biraz ileri al
+
+                // Oyuncunun pozisyonunu ayarla
+                player.position = newPosition;
+
+                // Oyuncunun yönünü de receiver ile eþleþtir
+                Quaternion rotationOffset = reciever.rotation * Quaternion.Inverse(transform.rotation);
+                player.rotation = rotationOffset * player.rotation;
 
                 playerIsOverlapping = false;
+
             }
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             playerIsOverlapping = true;
+            Debug.Log("Player entered portal.");
         }
     }
 
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             playerIsOverlapping = false;
+            Debug.Log("Player exited portal.");
         }
+
     }
 }

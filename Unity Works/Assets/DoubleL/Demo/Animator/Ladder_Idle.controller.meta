@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc7d854efee1fc049a147672c40a7c5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/Ladder_Idle.controller
+  uploadId: 704351

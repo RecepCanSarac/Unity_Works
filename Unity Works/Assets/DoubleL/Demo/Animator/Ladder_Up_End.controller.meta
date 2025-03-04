@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2bb73a857fa80c94ea4ba0cd15294def
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/Ladder_Up_End.controller
+  uploadId: 704351

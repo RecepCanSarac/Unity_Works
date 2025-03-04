@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c417d7ba43970c54180d35e177bc239e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Animator/Enemy_Attack_1_Run.controller
+  uploadId: 704351

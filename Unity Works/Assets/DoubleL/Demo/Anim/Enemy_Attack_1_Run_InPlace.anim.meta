@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 351b99ae8ca5d1e45817d55cd75444e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288783
+  packageName: RPG_Animations_Pack_FREE
+  packageVersion: 1.1
+  assetPath: Assets/DoubleL/Demo/Anim/Enemy_Attack_1_Run_InPlace.anim
+  uploadId: 704351
