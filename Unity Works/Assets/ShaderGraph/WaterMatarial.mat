@@ -44,7 +44,7 @@ Material:
     - _FoumThickness: 4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveHight: 0.188
+    - _WaveHight: 0.367
     - _WaveSpread: 5
     m_Colors:
     - _FlowDirection: {r: 1, g: 0.5, b: 0, a: 0}

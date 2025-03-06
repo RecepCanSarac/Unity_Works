@@ -38,18 +38,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FlowSpeed: 0.2
-    - _FoamDensty: 5
-    - _FoamSpeed: 0.5
+    - _FlowSpeed: 0.1
+    - _FoamDensty: 4.4
+    - _FoamSpeed: 1.1
     - _FoumThickness: 4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveHight: 0.5
+    - _WaveHight: 0
     - _WaveSpread: 5
     m_Colors:
-    - _FlowDirection: {r: 0.1, g: 0.5, b: 0, a: 0}
-    - _FoamColor: {r: 4, g: 1.518468, b: 0, a: 0}
-    - _WaterColor: {r: 1, g: 0.16996828, b: 0, a: 0.9568627}
+    - _FlowDirection: {r: 0, g: 0.5, b: 0, a: 0}
+    - _FoamColor: {r: 0.42920908, g: 1.7381209, b: 0.36894083, a: 0}
+    - _WaterColor: {r: 0.08392668, g: 0.7735849, b: 0.19751751, a: 0.9568627}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6430945432953430704
