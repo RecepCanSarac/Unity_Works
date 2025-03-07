@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2827cacc3be77004d8f33b8663c08a13
+timeCreated: 1584995157
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Buildings/SM_Bld_SmokeStack_01.prefab
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6f5bead2d24a7db4ebe9cdb5b8779fa3
+timeCreated: 1585085650
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Items/SM_Item_Nail_08.prefab
+  uploadId: 710015

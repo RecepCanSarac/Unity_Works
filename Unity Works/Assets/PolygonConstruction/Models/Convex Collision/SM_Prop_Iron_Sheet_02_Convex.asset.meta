@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6d9f8201c1d603c428c67eba073554d2
+timeCreated: 1588119072
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Iron_Sheet_02_Convex.asset
+  uploadId: 710015

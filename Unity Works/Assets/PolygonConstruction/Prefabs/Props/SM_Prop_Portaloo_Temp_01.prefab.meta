@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 30e83901a14cbb74eb04318d97dba042
+timeCreated: 1584995214
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Portaloo_Temp_01.prefab
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c3342eaf84cbf2b4ab216d70012ffbb0
+timeCreated: 1585710266
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Skip_Large_03_Insert_01.prefab
+  uploadId: 710015

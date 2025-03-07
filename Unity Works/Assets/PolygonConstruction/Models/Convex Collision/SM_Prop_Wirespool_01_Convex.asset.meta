@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4fabc52bc8583064ab3c88d4cf254921
+timeCreated: 1588119049
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Wirespool_01_Convex.asset
+  uploadId: 710015

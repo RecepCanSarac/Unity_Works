@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a327ed1e26dac745a8ed6890e8d456d
+timeCreated: 1585088051
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Tools/SM_Tool_Circular_Saw_01.prefab
+  uploadId: 710015

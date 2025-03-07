@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0e76229d30581bf4e9ee829feac01c87
+timeCreated: 1585707179
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Barrier_Long_02_Tarp.prefab
+  uploadId: 710015

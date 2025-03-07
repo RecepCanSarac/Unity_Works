@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0343f2bc18f211c4ba7c56a38d08d0d9
+timeCreated: 1584995220
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Propane_Tall_02.prefab
+  uploadId: 710015

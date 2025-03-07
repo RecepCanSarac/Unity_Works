@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a0a5c980877655140bfa6f7642c241e7
+timeCreated: 1585192931
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Buildings/SM_Bld_House_Ceiling_01.prefab
+  uploadId: 710015

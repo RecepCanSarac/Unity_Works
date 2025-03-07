@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d4f7dc616c519da4d8c0519c0758154c
+timeCreated: 1585801833
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Buildings/SM_Bld_Retainer_Wall_01_Tall_Corner.prefab
+  uploadId: 710015

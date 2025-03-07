@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 66497b0f216e1e445ac1611fccbafe68
+timeCreated: 1584994975
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Materials/Alts/PolygonConstruction_Mat_02_C.mat
+  uploadId: 710015

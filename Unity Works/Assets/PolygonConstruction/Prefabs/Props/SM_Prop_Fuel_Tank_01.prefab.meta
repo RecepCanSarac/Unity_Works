@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1948963e016d99b4392fc238f5ce5a96
+timeCreated: 1585705970
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Fuel_Tank_01.prefab
+  uploadId: 710015

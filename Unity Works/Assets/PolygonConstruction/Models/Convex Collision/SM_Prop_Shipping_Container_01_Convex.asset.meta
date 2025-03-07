@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 785ebf94d0ce87c499ec97f95b192e0c
+timeCreated: 1588119136
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Shipping_Container_01_Convex.asset
+  uploadId: 710015

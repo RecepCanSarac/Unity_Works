@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd3ce247e3561304eaec9559f6bb8c9b
+timeCreated: 1588119061
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Sign_Road_01_Convex.asset
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fb3d5dfd858d50849b27275f4d9be34c
+timeCreated: 1587355050
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/SM_Chr_Builder_Female_01.prefab
+  uploadId: 710015

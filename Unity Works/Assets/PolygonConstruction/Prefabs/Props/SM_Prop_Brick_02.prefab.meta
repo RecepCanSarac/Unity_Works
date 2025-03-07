@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 133c358167a6ab24789e46e981526228
+timeCreated: 1584995154
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Brick_02.prefab
+  uploadId: 710015

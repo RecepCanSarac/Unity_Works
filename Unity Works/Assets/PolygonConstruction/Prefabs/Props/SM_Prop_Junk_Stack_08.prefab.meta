@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bf6f1007cfaf48348a63df6ace0fecd3
+timeCreated: 1584995201
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Junk_Stack_08.prefab
+  uploadId: 710015

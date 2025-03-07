@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4c4555ac2add647459f4ac5dea00f975
+timeCreated: 1588119113
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Fence_Concrete_Pillar_01_Convex.asset
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a481e0c76bbfe87448142f2c37f4d6db
+timeCreated: 1588119045
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Crate_Stack_01_Convex.asset
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 03b1a99c99ee62f4785714ac5f6abdf0
+timeCreated: 1587508216
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Generic/SM_Generic_TreeStump_01.prefab
+  uploadId: 710015

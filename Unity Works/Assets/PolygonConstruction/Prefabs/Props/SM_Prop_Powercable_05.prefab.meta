@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ff5c9865859ca6643b80b191d8570643
+timeCreated: 1584995218
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Powercable_05.prefab
+  uploadId: 710015

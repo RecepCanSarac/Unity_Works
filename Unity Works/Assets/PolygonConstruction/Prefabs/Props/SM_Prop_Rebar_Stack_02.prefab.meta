@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 957c8fb438335c24e988295bffd5b9f2
+timeCreated: 1584995221
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Rebar_Stack_02.prefab
+  uploadId: 710015

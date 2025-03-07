@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 95864842a1b97f04890821e6492cd3eb
+timeCreated: 1588119140
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_TireStack_01_Convex.asset
+  uploadId: 710015

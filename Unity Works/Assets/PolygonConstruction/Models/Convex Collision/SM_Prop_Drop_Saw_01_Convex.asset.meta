@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2fd31b2d1991084a8f4a9fcdc1963b3
+timeCreated: 1588119190
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Drop_Saw_01_Convex.asset
+  uploadId: 710015

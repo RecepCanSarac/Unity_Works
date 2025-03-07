@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b2a0e60977b30334593dd8797e6a7025
+timeCreated: 1588119028
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Pipe_Concrete_Huge_03_Convex.asset
+  uploadId: 710015

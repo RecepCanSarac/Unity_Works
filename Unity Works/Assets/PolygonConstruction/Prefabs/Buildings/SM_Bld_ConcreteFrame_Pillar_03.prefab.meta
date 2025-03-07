@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7cca0ece1b5e5374991c1edafd5314b2
+timeCreated: 1584996653
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Buildings/SM_Bld_ConcreteFrame_Pillar_03.prefab
+  uploadId: 710015

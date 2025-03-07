@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e77315338ebc99341b1b8cd4effa221f
+timeCreated: 1588118745
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Item_Nail_05_Convex.asset
+  uploadId: 710015

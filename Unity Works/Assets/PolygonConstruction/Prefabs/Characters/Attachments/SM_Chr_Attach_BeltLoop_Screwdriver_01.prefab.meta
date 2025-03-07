@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2a04bbf7e5de3c34fb04acad3ec7cf26
+timeCreated: 1587424586
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/Attachments/SM_Chr_Attach_BeltLoop_Screwdriver_01.prefab
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a44de556ccb82cc4696212535ba1ca2f
+timeCreated: 1588119164
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Paint_Tray_01_Convex.asset
+  uploadId: 710015

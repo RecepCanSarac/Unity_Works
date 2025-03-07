@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8908dfa0e00c3a347bb9f9c0914493f9
+timeCreated: 1588119116
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Wood_Frame_02_Convex.asset
+  uploadId: 710015

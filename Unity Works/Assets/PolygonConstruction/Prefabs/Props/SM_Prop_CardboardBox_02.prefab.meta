@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f7d2b36fad9149a4fb7daf8fa640b32d
+timeCreated: 1584995130
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_CardboardBox_02.prefab
+  uploadId: 710015

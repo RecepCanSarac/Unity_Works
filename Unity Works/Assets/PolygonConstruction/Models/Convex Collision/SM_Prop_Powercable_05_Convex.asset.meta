@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9c6f8c0d11eed7148b654d21d99908df
+timeCreated: 1588119042
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Powercable_05_Convex.asset
+  uploadId: 710015

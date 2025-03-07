@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d3088af5cb703ce42947223d4f444d97
+timeCreated: 1587355059
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/SM_Chr_Builder_Raincoat_01.prefab
+  uploadId: 710015

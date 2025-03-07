@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d22bed24d58be9746a300695a77ff541
+timeCreated: 1588120065
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Veh_Truck_01_Convex.asset
+  uploadId: 710015

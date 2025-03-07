@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 485dc1504ed5b264d8c51c4658a09496
+timeCreated: 1584995116
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Items/SM_Item_Alcohol_01.prefab
+  uploadId: 710015

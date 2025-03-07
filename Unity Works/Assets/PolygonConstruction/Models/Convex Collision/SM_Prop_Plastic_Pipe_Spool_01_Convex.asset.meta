@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ec2a3c7cb70ecfd4581f51224bbe5f39
+timeCreated: 1588118958
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Plastic_Pipe_Spool_01_Convex.asset
+  uploadId: 710015

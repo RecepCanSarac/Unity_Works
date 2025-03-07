@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 791d8c2059825a542ab56e2bd35dccc2
+timeCreated: 1588119060
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Battery_Charger_Dual_01_Convex.asset
+  uploadId: 710015

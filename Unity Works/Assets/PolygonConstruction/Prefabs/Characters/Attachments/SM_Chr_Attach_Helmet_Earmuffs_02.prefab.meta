@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 44303f84daac3bd48830fb3909370d41
+timeCreated: 1587424583
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/Attachments/SM_Chr_Attach_Helmet_Earmuffs_02.prefab
+  uploadId: 710015

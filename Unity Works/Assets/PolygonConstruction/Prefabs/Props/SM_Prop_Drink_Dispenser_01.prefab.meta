@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb967305f808aef4fb46cacf24cfc55f
+timeCreated: 1584995180
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Drink_Dispenser_01.prefab
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f4183b8e434ce2448ad6cdf841777920
+timeCreated: 1584995185
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Chair_Metal_01.prefab
+  uploadId: 710015

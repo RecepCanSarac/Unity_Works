@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9218b5f969d0f8a4dbbfb5b60f439f3e
+timeCreated: 1588118246
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Bld_Retainer_Wall_02_Tall_Corner_Convex.asset
+  uploadId: 710015

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 41c4aa0ed926d03478c0597806cb29ac
+timeCreated: 1584995174
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Cone_01.prefab
+  uploadId: 710015

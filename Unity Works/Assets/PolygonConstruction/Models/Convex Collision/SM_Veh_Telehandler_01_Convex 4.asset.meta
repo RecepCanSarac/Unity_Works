@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 04a07c5cadf7ba247ba23ff4d5a59d86
+timeCreated: 1588120379
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Veh_Telehandler_01_Convex
+    4.asset
+  uploadId: 710015

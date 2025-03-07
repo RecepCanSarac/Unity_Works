@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 368501e7578b47545992cd164b51e8d5
+timeCreated: 1588119143
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Skip_Large_02_Insert_01_Convex.asset
+  uploadId: 710015

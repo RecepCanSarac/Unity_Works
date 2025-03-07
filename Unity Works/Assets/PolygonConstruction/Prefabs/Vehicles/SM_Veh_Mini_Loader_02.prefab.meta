@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e110f10060aa2464c9a11cdf4a60850f
+timeCreated: 1585088472
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Vehicles/SM_Veh_Mini_Loader_02.prefab
+  uploadId: 710015

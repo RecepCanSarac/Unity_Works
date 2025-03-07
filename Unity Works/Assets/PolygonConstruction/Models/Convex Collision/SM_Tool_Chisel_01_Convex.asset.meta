@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0dd140190eade9d4698f8cadb7701b95
+timeCreated: 1588118553
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Tool_Chisel_01_Convex.asset
+  uploadId: 710015

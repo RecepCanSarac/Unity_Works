@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 28153e6dc9ac5f74a95eabd3ef205d41
+timeCreated: 1584995252
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_TrashBag_02.prefab
+  uploadId: 710015

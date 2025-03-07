@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6c8dbf8354899d24a8d092fdae808b0b
+timeCreated: 1588118539
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Tool_Paint_Roller_02_Convex.asset
+  uploadId: 710015

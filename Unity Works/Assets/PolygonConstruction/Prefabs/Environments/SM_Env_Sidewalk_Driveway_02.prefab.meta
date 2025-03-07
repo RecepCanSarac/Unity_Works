@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6fb91658c0302084e877cdfed043df56
+timeCreated: 1585705863
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Environments/SM_Env_Sidewalk_Driveway_02.prefab
+  uploadId: 710015

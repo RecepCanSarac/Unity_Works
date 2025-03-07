@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 424edb687a9a4d347b190a2b4d2b7787
+timeCreated: 1584995248
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Tool_Bucket_01.prefab
+  uploadId: 710015

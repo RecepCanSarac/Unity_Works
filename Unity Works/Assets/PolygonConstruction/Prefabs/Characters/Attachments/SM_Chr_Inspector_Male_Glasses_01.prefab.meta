@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e8e8f4ebd9e440049bc43a7bcf2e553a
+timeCreated: 1587424589
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/Attachments/SM_Chr_Inspector_Male_Glasses_01.prefab
+  uploadId: 710015

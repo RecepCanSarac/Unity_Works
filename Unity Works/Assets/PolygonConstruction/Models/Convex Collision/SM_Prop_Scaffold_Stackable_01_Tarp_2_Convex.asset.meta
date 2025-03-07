@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23eb7c4557baf7347b9145fc74571a0e
+timeCreated: 1588119168
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Scaffold_Stackable_01_Tarp_2_Convex.asset
+  uploadId: 710015

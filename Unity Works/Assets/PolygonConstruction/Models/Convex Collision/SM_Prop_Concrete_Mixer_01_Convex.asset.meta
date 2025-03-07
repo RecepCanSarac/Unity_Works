@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cfb0cac470385ab4196ae9c7225e9d7d
+timeCreated: 1588119011
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Concrete_Mixer_01_Convex.asset
+  uploadId: 710015

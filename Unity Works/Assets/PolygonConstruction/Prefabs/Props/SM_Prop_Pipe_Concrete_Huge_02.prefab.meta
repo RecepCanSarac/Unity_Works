@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0fdb55d3bb1a5c248a5fcdd4288e5b93
+timeCreated: 1584995211
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Pipe_Concrete_Huge_02.prefab
+  uploadId: 710015

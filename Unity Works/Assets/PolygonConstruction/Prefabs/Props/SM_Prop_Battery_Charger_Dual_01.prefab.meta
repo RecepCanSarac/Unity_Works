@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0b56c0a643dceb245bdb894597c9747d
+timeCreated: 1585085961
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Battery_Charger_Dual_01.prefab
+  uploadId: 710015

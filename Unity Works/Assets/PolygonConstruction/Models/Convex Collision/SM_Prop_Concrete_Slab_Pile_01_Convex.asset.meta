@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a57125ae08a3fa742b78d802c7914b16
+timeCreated: 1588119127
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Concrete_Slab_Pile_01_Convex.asset
+  uploadId: 710015

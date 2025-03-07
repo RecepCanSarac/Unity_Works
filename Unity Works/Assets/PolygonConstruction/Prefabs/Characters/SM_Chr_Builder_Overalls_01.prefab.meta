@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d0a9ec5dc1484dc4bad93811a9c0ab65
+timeCreated: 1587355057
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Characters/SM_Chr_Builder_Overalls_01.prefab
+  uploadId: 710015

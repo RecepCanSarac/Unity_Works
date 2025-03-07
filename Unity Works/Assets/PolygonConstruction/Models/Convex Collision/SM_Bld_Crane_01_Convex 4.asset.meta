@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5288a51a276d882448fc29dcaad5cedf
+timeCreated: 1588120984
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Bld_Crane_01_Convex
+    4.asset
+  uploadId: 710015

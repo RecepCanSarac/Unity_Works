@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6163cb4941f66ed4fbafa3a0ddbc6b8b
+timeCreated: 1585192946
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Buildings/SM_Bld_House_Truss_01.prefab
+  uploadId: 710015

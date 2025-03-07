@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9915f79b6b974cd4e8b8602e7b5e53cb
+timeCreated: 1588119174
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_Fuel_Tank_01_Convex.asset
+  uploadId: 710015

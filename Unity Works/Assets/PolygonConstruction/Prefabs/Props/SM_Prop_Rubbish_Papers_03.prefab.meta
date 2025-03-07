@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 57ff955a1ec89074bab2c0f7b4ee8c7b
+timeCreated: 1584995224
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Props/SM_Prop_Rubbish_Papers_03.prefab
+  uploadId: 710015

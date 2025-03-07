@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f97391f4ebbe12642a6217362f5ab202
+timeCreated: 1588119081
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Models/Convex Collision/SM_Prop_ToolBox_01_Convex.asset
+  uploadId: 710015

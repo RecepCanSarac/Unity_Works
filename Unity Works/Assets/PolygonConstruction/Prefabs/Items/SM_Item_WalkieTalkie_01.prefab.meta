@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 794e179c9eb995c4c84c9d50099e4263
+timeCreated: 1584995140
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Items/SM_Item_WalkieTalkie_01.prefab
+  uploadId: 710015

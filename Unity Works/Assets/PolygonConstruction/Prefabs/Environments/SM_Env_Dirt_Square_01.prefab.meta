@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cacfdfa892f00774983c72d50cbd136d
+timeCreated: 1584995156
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Environments/SM_Env_Dirt_Square_01.prefab
+  uploadId: 710015

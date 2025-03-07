@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dca1682b46dda7642b0bf9b36e478c8f
+timeCreated: 1585794739
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168036
+  packageName: POLYGON Construction - Low Poly 3D Art by Synty
+  packageVersion: 1.4.2
+  assetPath: Assets/PolygonConstruction/Prefabs/Environments/SM_Generic_Small_Rocks_02.prefab
+  uploadId: 710015
