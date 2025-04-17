@@ -13,6 +13,9 @@ public class ArrayTest : MonoBehaviour
     public int Score = 0;
     int lineNUmber;
     string emptySTR;
+
+    [SerializeField] private List<Color> colors = new List<Color>();
+
     private void Start()
     {
         lines.Add(lineOne);
@@ -36,7 +39,6 @@ public class ArrayTest : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.G))
         {
-            SetGame(false);
             SetGame();
         }
     }
@@ -45,57 +47,45 @@ public class ArrayTest : MonoBehaviour
     //It is controlling
     private void GetFillBlockValue()
     {
+        // Yatay kontrol
         for (int i = 0; i < lines.Count; i++)
         {
-            lineNUmber = 0;
-            for (int j = 0; j < lines[i].Count; j++)
+            if (lines[i][0].GetComponent<BlockObject>().Block.color ==
+                lines[i][1].GetComponent<BlockObject>().Block.color &&
+                lines[i][1].GetComponent<BlockObject>().Block.color ==
+                lines[i][2].GetComponent<BlockObject>().Block.color)
             {
-                if (lines[i][j].GetComponent<BlockObject>().Block.isFill)
-                    lineNUmber++;
+                Score++;
             }
-            Score += lineNUmber == 3 ? 1 : 0;
         }
 
+        // Dikey kontrol
         for (int i = 0; i < lines[0].Count; i++)
         {
-            lineNUmber = 0;
-            for (int j = 0; j < lines.Count; j++)
+            if (lines[0][i].GetComponent<BlockObject>().Block.color ==
+                lines[1][i].GetComponent<BlockObject>().Block.color &&
+                lines[1][i].GetComponent<BlockObject>().Block.color ==
+                lines[2][i].GetComponent<BlockObject>().Block.color)
             {
-                if (lines[j][i].GetComponent<BlockObject>().Block.isFill)
-                    lineNUmber++;
+                Score++;
             }
-            Score += lineNUmber == 3 ? 1 : 0;
         }
-        Debug.Log("Score" + Score);
+
+        Debug.Log("Score: " + Score);
     }
 
 
-    private void SetGame(bool isGame)
-    {
-        for (int i = 0; i < lines.Count; i++)
-        {
-            for (int j = 0; j < lines[i].Count; j++)
-            {
-                int randomNumber = Random.Range(0, 101);
-
-                lines[i][j].GetComponent<BlockObject>().Block.isFill = isGame;
-                lines[i][j].GetComponent<BlockObject>().SetBlock();
-            }
-        }
-    }
     private void SetGame()
     {
         for (int i = 0; i < lines.Count; i++)
         {
             for (int j = 0; j < lines[i].Count; j++)
             {
-                int randomNumber = Random.Range(0, 101);
+                int randomColor = Random.RandomRange(0, colors.Count);
 
-                if (randomNumber <= 10)
-                {
-                    lines[i][j].GetComponent<BlockObject>().Block.isFill = true;
-                    lines[i][j].GetComponent<BlockObject>().SetBlock();
-                }
+                lines[i][j].GetComponent<BlockObject>().Block.color = colors[randomColor];
+                lines[i][j].GetComponent<BlockObject>().SetBlock();
+
             }
         }
     }
