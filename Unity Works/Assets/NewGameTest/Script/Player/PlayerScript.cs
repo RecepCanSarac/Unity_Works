@@ -1,11 +1,6 @@
 using UnityEngine;
 
-public class PlayerScript : MonoBehaviour
+public class PlayerScript : PlayerEvents
 {
-    public PlayerData player;
-
-    
-
-
-
+    public GameObject TargetEnemy;
 }

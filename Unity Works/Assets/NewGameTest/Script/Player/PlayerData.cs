@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="Player",menuName ="Player/Player")]
+[CreateAssetMenu(fileName = "Player", menuName = "Player/Player")]
 public class PlayerData : ScriptableObject
 {
     [Header("Player-Name")]
@@ -10,4 +10,5 @@ public class PlayerData : ScriptableObject
     public int playerHealth;
     public int playerDamage;
     public int playerArmor;
+
 }
