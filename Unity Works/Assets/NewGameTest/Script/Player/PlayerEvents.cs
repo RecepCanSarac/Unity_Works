@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerEvents : MonoBehaviour
@@ -10,7 +11,7 @@ public class PlayerEvents : MonoBehaviour
     [SerializeField] private int playerArmor;
 
 
-    public void PlayerRestoreDefoult()
+    public void PlayerRestoreDefault()
     {
         playerName = PlayerData.playerName;
         playerDamage = PlayerData.playerDamage;
@@ -18,7 +19,7 @@ public class PlayerEvents : MonoBehaviour
         playerArmor = PlayerData.playerArmor;
     }
 
-    public int TakenDamage(int damage)
+    public void TakenDamage(int damage)
     {
         if (playerArmor > 0)
         {
@@ -27,21 +28,10 @@ public class PlayerEvents : MonoBehaviour
             damage -= damageToArmor;
         }
         playerHealth -= damage;
-        return playerHealth;
     }
 
-    //Enemy TakenDamage
-    public int TakeDamage(int damage, int armor, int health)
+    public void TakeDamage(EnemyScript enemy)
     {
-        if (armor > 0)
-        {
-            int damageToArmor = Mathf.Min(health, damage);
-            armor -= damageToArmor;
-            damage -= damageToArmor;
-        }
-
-        health -= damage;
-        return health;
+        enemy.TakenDamage(playerDamage);
     }
-
 }
