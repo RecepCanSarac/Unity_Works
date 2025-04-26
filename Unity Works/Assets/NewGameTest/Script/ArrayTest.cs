@@ -11,8 +11,6 @@ public class ArrayTest : MonoBehaviour
 
 
     public int Score = 0;
-    int lineNUmber;
-    string emptySTR;
 
     [SerializeField] private List<Color> colors = new List<Color>();
 
@@ -21,15 +19,6 @@ public class ArrayTest : MonoBehaviour
         lines.Add(lineOne);
         lines.Add(lineTwo);
         lines.Add(lineTre);
-
-
-        for (int i = 0; i < lines.Count; i++)
-        {
-            for (int j = 0; j < lines[i].Count; j++)
-            {
-                Debug.Log(lines[i][j].GetComponent<BlockObject>().Block.blockNumber);
-            }
-        }
     }
 
     private void Update()

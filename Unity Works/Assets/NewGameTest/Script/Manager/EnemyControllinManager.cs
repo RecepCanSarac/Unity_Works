@@ -15,16 +15,6 @@ public class EnemyControllinManager : MonoBehaviour
         gameTourSystemManager = FindAnyObjectByType<GameTourSystemManager>();
     }
 
-    public IEnumerator EnemiesAttack()
-    {
-        for (int i = 0; i < enemyList.Count; i++)
-        {
-            enemyList[i].TakeDamage(player);
-            yield return new WaitForSeconds(1f);
-        }
-        gameTourSystemManager.SetGameTour(TourType.YourTour);
-
-        yield return null;
-    }
+   
 
 }

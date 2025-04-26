@@ -27,6 +27,9 @@ public class EnemyEvents : MonoBehaviour
             damage -= damageToArmor;
         }
         enemyHealth -= damage;
+
+        if (enemyHealth <= 0)
+            Destroy(gameObject);
     }
 
     public void TakeDamage(PlayerScript player)

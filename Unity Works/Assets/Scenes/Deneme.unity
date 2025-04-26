@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tourType: 0
   tourTxt: {fileID: 1145006280}
+  enemyList:
+  - {fileID: 1346463485}
 --- !u!4 &155754194
 Transform:
   m_ObjectHideFlags: 0
@@ -956,7 +958,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1205329924}
-  - component: {fileID: 1205329923}
   m_Layer: 0
   m_Name: EnemyDamageController
   m_TagString: Untagged
@@ -964,20 +965,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1205329923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205329922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda985ce9c1903f46b010242d47aa37b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyList:
-  - {fileID: 1346463485}
 --- !u!4 &1205329924
 Transform:
   m_ObjectHideFlags: 0
