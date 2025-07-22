@@ -30,7 +30,7 @@ public class TurnBasedAttack : MonoBehaviour
     {
         infoText.text = "Moving";
 
-        while (Vector3.Distance(transform.position, enemy.transform.position) > 0.5f)
+        while (Vector3.Distance(transform.position, enemy.transform.position) > 1f)
         {
             transform.position =
                 Vector3.MoveTowards(transform.position, enemy.transform.position, moveSpeed * Time.deltaTime);
