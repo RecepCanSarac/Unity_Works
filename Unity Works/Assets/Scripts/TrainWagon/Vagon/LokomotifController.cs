@@ -7,6 +7,8 @@ public class LokomotifController : MonoBehaviour
     public float turnSpeed = 120f;
 
     private Rigidbody rb;
+    public bool isMove = true;
+    private float turn;
 
     void Start()
     {
@@ -16,10 +18,11 @@ public class LokomotifController : MonoBehaviour
 
     void Update()
     {
-        float forward = Input.GetAxis("Vertical");   // W/S
-        float turn = Input.GetAxis("Horizontal");    // A/D
+        if (isMove)
+            turn = Input.GetAxis("Horizontal");
 
-        Vector3 movement = transform.forward  * moveSpeed * Time.deltaTime;
+
+        Vector3 movement = transform.forward * moveSpeed * Time.deltaTime;
         Quaternion rotation = Quaternion.Euler(0f, turn * turnSpeed * Time.deltaTime, 0f);
 
         rb.MovePosition(rb.position + movement);

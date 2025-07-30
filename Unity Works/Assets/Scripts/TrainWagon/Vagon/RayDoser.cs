@@ -32,13 +32,11 @@ public class RayDoser : MonoBehaviour
     {
         if (railPrefab == null)
         {
-            Debug.LogWarning("Ray Prefab atanmadı!");
             return;
         }
 
         GameObject newRail = Instantiate(railPrefab, railTransform.position, transform.rotation);
         railPoints.Add(newRail.transform);
-        Debug.Log("Yeni ray eklendi! Toplam: " + railPoints.Count);
     }
 
     void CleanupOldRails()
@@ -51,7 +49,6 @@ public class RayDoser : MonoBehaviour
 
             float distanceToLastWagon = Vector3.Distance(oldest.position, lastWagon.position);
 
-            // Eğer vagon rayın önüne geçtiyse sil
             Vector3 directionToRay = oldest.position - lastWagon.position;
             float dot = Vector3.Dot(lastWagon.forward, directionToRay);
 
@@ -63,8 +60,6 @@ public class RayDoser : MonoBehaviour
             else break;
         }
     }
-
-
 
     public Transform GetRailTransformAtOffsetFromEnd(float offset)
     {

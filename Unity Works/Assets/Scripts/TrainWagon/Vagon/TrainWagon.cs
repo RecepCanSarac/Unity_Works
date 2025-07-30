@@ -12,7 +12,9 @@ public class TrainWagon : MonoBehaviour
         if (raySource == null || raySource.GetRailCount() <= rayOffset) return;
 
         Transform targetRail = raySource.GetRailTransformAtOffsetFromEnd(rayOffset);
-        transform.position = Vector3.MoveTowards(transform.position, targetRail.position, moveSpeed * Time.deltaTime);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(targetRail.forward), Time.deltaTime * rotationSpeed);
+        transform.position = Vector3.MoveTowards(transform.position, targetRail.position + new Vector3(0, .5f, 0),
+            moveSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(targetRail.forward),
+            Time.deltaTime * rotationSpeed);
     }
 }
