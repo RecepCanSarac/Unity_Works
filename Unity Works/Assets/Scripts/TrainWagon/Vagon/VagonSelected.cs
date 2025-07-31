@@ -15,6 +15,9 @@ public class VagonSelected : MonoBehaviour
 
     private void Start()
     {
+        if (turretObject == null)
+            turretObject = transform.Find("VagonPanel").gameObject;
+
         if (MouseSelected.instance != null)
         {
             MouseSelected.instance.vagonSelected += OnVagonSelected;

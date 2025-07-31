@@ -10,14 +10,23 @@ public class RayDoser : MonoBehaviour
     public List<Transform> railPoints = new();
     public Transform railTransform;
     private Vector3 lastSpawnPosition;
-
+    public Transform train;
     void Start()
     {
         lastSpawnPosition = transform.position;
+        
     }
 
     void Update()
     {
+        if (lastWagon == null && transform.parent != null)
+        {
+            if (train != null && train.childCount > 0)
+            {
+                lastWagon = train.GetChild(train.childCount - 1);
+            }
+        }
+        
         float distance = Vector3.Distance(transform.position, lastSpawnPosition);
         if (distance >= spawnDistance)
         {
@@ -30,12 +39,14 @@ public class RayDoser : MonoBehaviour
 
     void SpawnRail()
     {
-        if (railPrefab == null)
-        {
-            return;
-        }
+        if (railPrefab == null) return;
 
-        GameObject newRail = Instantiate(railPrefab, railTransform.position, transform.rotation);
+        GameObject newRail = Instantiate(
+            railPrefab,
+            railTransform.position,
+            Quaternion.LookRotation(transform.forward)
+        );
+
         railPoints.Add(newRail.transform);
     }
 
