@@ -6,6 +6,7 @@ public class VagonSelected : MonoBehaviour
     private CameraController cameraController;
     private LokomotifController lokomotifController;
     public GameObject turretObject;
+
     private void Awake()
     {
         cameraController = Camera.main.GetComponent<CameraController>();
@@ -14,7 +15,20 @@ public class VagonSelected : MonoBehaviour
 
     private void Start()
     {
-        MouseSelected.instance.vagonSelected += SelecterVagon;
+        if (MouseSelected.instance != null)
+        {
+            MouseSelected.instance.vagonSelected += OnVagonSelected;
+        }
+    }
+
+    private void OnEnable()
+    {
+        MouseSelected.instance.vagonSelected += OnVagonSelected;
+    }
+
+    private void OnDisable()
+    {
+        MouseSelected.instance.vagonSelected -= OnVagonSelected;
     }
 
     private void Update()
@@ -25,23 +39,18 @@ public class VagonSelected : MonoBehaviour
         }
     }
 
-    private void OnDisable()
-    {
-        MouseSelected.instance.vagonSelected -= SelecterVagon;
-    }
-
-    private void SelecterVagon(GameObject obj)
+    private void OnVagonSelected(GameObject obj)
     {
         lokomotifController.isMove = false;
         cameraController.target = obj.transform;
         cameraController.offset = new Vector3(2f, 1f, -2f);
         turretObject.SetActive(true);
     }
-    
+
     public void Deselect()
     {
         lokomotifController.isMove = true;
-        cameraController.target = lokomotifController.gameObject.transform;
+        cameraController.target = lokomotifController.transform;
         cameraController.offset = new Vector3(0f, 25f, -10f);
         turretObject.SetActive(false);
     }

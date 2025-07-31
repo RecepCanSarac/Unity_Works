@@ -10,7 +10,10 @@ public class VagonCard : MonoBehaviour
     public TextMeshProUGUI turretName;
     public TextMeshProUGUI turretPrice;
     public Button buyButton;
-
+    
+    
+    public int towerCapacity = 1;
+    
     public void SetCart(string name, int price, Sprite image, Action buy
     )
     {

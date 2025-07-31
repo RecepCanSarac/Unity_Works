@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class TurretScanner : MonoBehaviour
 {
+    public Turret turret;
     public LayerMask targetMask;
     public float range = 10f;
     public float fireRate = 1f;
     public GameObject bulletPrefab;
     public Transform shootPoint;
     public float bulletSpeed = 15f;
-
+    
     private float fireTimer = 0f;
 
     void Update()
@@ -33,6 +34,7 @@ public class TurretScanner : MonoBehaviour
         if (bulletPrefab == null || shootPoint == null) return;
 
         GameObject bullet = Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
+        bullet.GetComponent<BasicBullet>().damage = turret.damage;
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         if (rb != null)
         {

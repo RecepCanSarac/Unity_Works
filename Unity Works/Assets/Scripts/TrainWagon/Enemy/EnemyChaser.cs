@@ -7,7 +7,7 @@ public class EnemyChaser : MonoBehaviour
     public string trainTag = "TrainPart";
     public GameObject explosionEffect;
     public int damageAmount = 10;
-
+    public float health = 25;
     private Transform currentTarget;
 
     void Update()
@@ -48,7 +48,7 @@ public class EnemyChaser : MonoBehaviour
 
         currentTarget = closest;
     }
-
+    
     void Explode()
     {
         if (currentTarget != null)
@@ -67,4 +67,15 @@ public class EnemyChaser : MonoBehaviour
 
         Destroy(gameObject);
     }
+    
+    
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Explode();
+        }
+    }
+    
 }

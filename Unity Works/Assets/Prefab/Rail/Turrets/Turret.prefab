@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93082b3c81a18f408aac356040c2d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turret: {fileID: 11400000, guid: 76328b6cb15a10b4590b34db041de268, type: 2}
   targetMask:
     serializedVersion: 2
     m_Bits: 256

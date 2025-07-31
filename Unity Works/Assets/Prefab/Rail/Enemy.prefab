@@ -123,8 +123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08fd1575af87f74b828b47d474da0b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   moveSpeed: 11.01
   stopDistance: 2
+  trainTag: TrainPart
   explosionEffect: {fileID: 556529809141913366, guid: ad81171142c62ce42becc951871a4e78, type: 3}
   damageAmount: 10
+  health: 100
