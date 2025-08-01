@@ -41,14 +41,18 @@ public class RayDoser : MonoBehaviour
     {
         if (railPrefab == null) return;
 
-        GameObject newRail = Instantiate(
-            railPrefab,
-            railTransform.position,
-            Quaternion.LookRotation(transform.forward)
-        );
+        Vector3 spawnPos = lastSpawnPosition;
 
+        Vector3 direction = (transform.position - lastSpawnPosition).normalized;
+        if (direction == Vector3.zero)
+            direction = transform.forward;
+
+        Quaternion spawnRot = Quaternion.LookRotation(direction) * Quaternion.Euler(0, direction.y, 0);
+
+        GameObject newRail = Instantiate(railPrefab, spawnPos, spawnRot);
         railPoints.Add(newRail.transform);
     }
+
 
     void CleanupOldRails()
     {

@@ -15,9 +15,6 @@ public class VagonSelected : MonoBehaviour
 
     private void Start()
     {
-        if (turretObject == null)
-            turretObject = transform.Find("VagonPanel").gameObject;
-
         if (MouseSelected.instance != null)
         {
             MouseSelected.instance.vagonSelected += OnVagonSelected;
@@ -46,8 +43,7 @@ public class VagonSelected : MonoBehaviour
     {
         lokomotifController.isMove = false;
         cameraController.target = obj.transform;
-        cameraController.offset = new Vector3(2f, 1f, -2f);
-        turretObject.SetActive(true);
+        cameraController.offset = new Vector3(2.5f, 3f, -3f);
     }
 
     public void Deselect()
@@ -55,6 +51,6 @@ public class VagonSelected : MonoBehaviour
         lokomotifController.isMove = true;
         cameraController.target = lokomotifController.transform;
         cameraController.offset = new Vector3(0f, 25f, -10f);
-        turretObject.SetActive(false);
+       
     }
 }

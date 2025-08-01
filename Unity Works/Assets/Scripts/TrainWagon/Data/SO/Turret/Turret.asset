@@ -16,4 +16,4 @@ MonoBehaviour:
   damage: 21
   sprite: {fileID: 21300000, guid: ee19cd4d56460e443915cdde01cf3cb9, type: 3}
   price: 245
-  prefab: {fileID: 6229923764251093929, guid: 5443208ab5027634ea225d76a0d84954, type: 3}
+  prefab: {fileID: 4658540816567580545, guid: 6a7728ed072c2224c98998133ca28f73, type: 3}

@@ -1,14 +1,13 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TrainWagon : MonoBehaviour
 {
     public RayDoser raySource;
-    public float rayOffset = 5f;
+    public Transform leadingWagon;
+    public float followDistance = 3f;
     public float moveSpeed = 10f;
     public float rotationSpeed = 10f;
-
 
     private void Start()
     {
@@ -18,35 +17,36 @@ public class TrainWagon : MonoBehaviour
 
     void Update()
     {
-        if (raySource == null || raySource.GetRailCount() <= 1) return;
+        if (raySource == null || raySource.GetRailCount() <= 1 || leadingWagon == null)
+            return;
 
-        Transform target = GetTargetTransformByDistance(rayOffset);
+        Vector3 behindTarget = leadingWagon.position - leadingWagon.forward * followDistance;
 
-        if (target == null) return;
+        Transform closestRail = GetClosestRailToPoint(behindTarget);
+        if (closestRail == null) return;
 
-        Vector3 targetPos = target.position + Vector3.up * 0.5f;
-
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.forward), rotationSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, closestRail.position, moveSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(closestRail.forward), rotationSpeed * Time.deltaTime);
     }
 
-    Transform GetTargetTransformByDistance(float distanceOffset)
+    Transform GetClosestRailToPoint(Vector3 point)
     {
         List<Transform> rails = raySource.railPoints;
+        if (rails == null || rails.Count == 0) return null;
 
-        float accumulatedDistance = 0f;
+        Transform closest = rails[0];
+        float minDist = Vector3.Distance(point, closest.position);
 
-        for (int i = rails.Count - 1; i > 0; i--)
+        foreach (Transform rail in rails)
         {
-            float segmentLength = Vector3.Distance(rails[i].position, rails[i - 1].position);
-            accumulatedDistance += segmentLength;
-
-            if (accumulatedDistance >= distanceOffset)
+            float dist = Vector3.Distance(point, rail.position);
+            if (dist < minDist)
             {
-                return rails[i - 1];
+                closest = rail;
+                minDist = dist;
             }
         }
 
-        return rails[0];
+        return closest;
     }
 }

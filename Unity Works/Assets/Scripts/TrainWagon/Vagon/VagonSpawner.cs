@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class VagonSpawner : MonoBehaviour
 {
+    [Header("Vagon Ayarları")] 
     public GameObject vagonPrefab;
-    public Transform trainParent; 
+    public Transform trainParent;
     public RayDoser rayDoser;
-    public float rayOffsetPerVagon = 3f;
+    public float spawnGap = 1f;
 
     private int vagonCount = 0;
-
 
     private void Update()
     {
@@ -21,21 +21,20 @@ public class VagonSpawner : MonoBehaviour
 
     public void AddNewVagon()
     {
-        Transform referenceTransform = rayDoser.lastWagon != null 
-            ? rayDoser.lastWagon 
-            : rayDoser.transform;
+        Transform referenceTransform = rayDoser.lastWagon != null
+            ? rayDoser.lastWagon
+            : trainParent.GetChild(0);
 
         GameObject newVagon = Instantiate(vagonPrefab, trainParent);
 
-        Vector3 spawnOffset = -referenceTransform.forward * 2f;
+        Vector3 spawnOffset = -referenceTransform.forward * spawnGap;
         newVagon.transform.position = referenceTransform.position + spawnOffset;
         newVagon.transform.rotation = referenceTransform.rotation;
 
-        float offset = (vagonCount + 1) * rayOffsetPerVagon;
-
         TrainWagon wagon = newVagon.GetComponent<TrainWagon>();
-        wagon.rayOffset = offset;
         wagon.raySource = rayDoser;
+        wagon.followDistance = spawnGap;
+        wagon.leadingWagon = referenceTransform;
 
         rayDoser.lastWagon = newVagon.transform;
 

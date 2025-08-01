@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +8,7 @@ public class TurretBuyManager : MonoBehaviour
     public List<VagonCard> cards = new List<VagonCard>();
     public GameObject vagonCard;
     public Transform vagonCardParent;
-
+    public GameObject VagonPanelPrefab;
     private Transform currentVagon;
     
     private void OnDisable()
@@ -33,43 +34,49 @@ public class TurretBuyManager : MonoBehaviour
         }
     }
 
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            VagonPanelPrefab.SetActive(false);
+        }
+    }
+
     private void OnVagonSelected(GameObject obj)
     {
         currentVagon = obj.transform;
+        
+        VagonPanelPrefab.SetActive(true);
     }
 
     public void BuyTurret(Turret turret, VagonCard vagonComponent)
     {
         if (currentVagon == null)
         {
-            Debug.LogWarning("No vagon selected.");
             return;
         }
 
         VagonCapacity capacity = currentVagon.GetComponent<VagonCapacity>();
         if (capacity == null)
         {
-            Debug.LogWarning("Selected vagon does not have VagonCapacity script.");
             return;
         }
 
         if (!capacity.CanAddTurret())
         {
-            Debug.LogWarning("This vagon has reached its turret slot limit.");
             return;
         }
 
         Transform spawnPoint = capacity.GetNextSlot();
         if (spawnPoint == null)
         {
-            Debug.LogWarning("No available spawn point.");
             return;
         }
 
         GameObject newTower = Instantiate(turret.prefab, spawnPoint.position, spawnPoint.rotation, currentVagon);
         capacity.AddTurret();
 
-        Debug.Log($"{turret.name} bought and placed at slot.");
     }
 
 }
