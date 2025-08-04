@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class VagonCabin : MonoBehaviour
     private List<Transform> allParts = new List<Transform>();
     public int currentIndex = 0;
 
+    public GameObject vagonBuyPanel;
+
     void Start()
     {
         RefreshList();
@@ -19,9 +22,8 @@ public class VagonCabin : MonoBehaviour
 
     void Update()
     {
-        
     }
-
+    
     public void RefreshList()
     {
         allParts.Clear();
@@ -40,6 +42,12 @@ public class VagonCabin : MonoBehaviour
 
     void MoveToCurrent()
     {
+        if (vagonBuyPanel != null)
+        {
+            bool lokomotifteyiz = currentIndex == 0;
+            vagonBuyPanel.SetActive(lokomotifteyiz);
+        }
+
         StopAllCoroutines();
         StartCoroutine(SmoothMoveToCurrent());
     }
@@ -58,7 +66,7 @@ public class VagonCabin : MonoBehaviour
         Quaternion targetRot = target.rotation;
 
         float t = 0;
-        float duration = 0.3f; 
+        float duration = 0.3f;
 
         while (t < 1f)
         {
@@ -86,5 +94,10 @@ public class VagonCabin : MonoBehaviour
             currentIndex = 0;
 
         MoveToCurrent();
+    }
+
+    private void OnDisable()
+    {
+        vagonBuyPanel.SetActive(false);
     }
 }

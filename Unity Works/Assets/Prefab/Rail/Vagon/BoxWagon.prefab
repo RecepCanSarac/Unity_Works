@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Data: {fileID: 11400000, guid: ca4b7aba4c3e14147bf3173215e2f800, type: 2}
   turretObject: {fileID: 0}
 --- !u!1 &8016302557846543111
 GameObject:

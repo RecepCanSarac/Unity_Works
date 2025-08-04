@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb578bddd271a34482bbd1f0827b021, type: 3}
+  m_Name: BasicWagon
+  m_EditorClassIdentifier: 
+  WagonName: Basic Wagon
+  WagonHealth: 100
+  WagonCapacity: 0
+  WagonSprite: {fileID: 21300000, guid: ee19cd4d56460e443915cdde01cf3cb9, type: 3}
+  WagonPrice: 0
+  WagonPrefab: {fileID: 292383573066889393, guid: 9ff97ab45d71618468d726e2b8169266, type: 3}

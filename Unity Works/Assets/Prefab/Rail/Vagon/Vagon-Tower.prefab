@@ -293,6 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40956424da32e742a2f38f5749984b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Type: 0
+  Data: {fileID: 11400000, guid: 394ddf254b9d8de4484367777d8bf98e, type: 2}
   turretObject: {fileID: 0}
 --- !u!114 &8679153607550065053
 MonoBehaviour:
