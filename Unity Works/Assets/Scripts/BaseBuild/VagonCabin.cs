@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,65 +9,69 @@ public class VagonCabin : MonoBehaviour
     public Transform cameraPivot;
 
     private List<Transform> allParts = new List<Transform>();
-    private int currentIndex = 0;
+    public int currentIndex = 0;
 
     void Start()
     {
         RefreshList();
-        currentIndex = 0;
         MoveToCurrent();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            Debug.Log("Y tuşuna basıldı");
-            MoveNext();
-        }
-
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            Debug.Log("U tuşuna basıldı");
-            MovePrevious();
-        }
+        
     }
 
     public void RefreshList()
     {
-        currentIndex = 0;
-        
         allParts.Clear();
 
         if (lokomotif != null)
             allParts.Add(lokomotif);
 
         foreach (Transform vagon in train)
-        {
             allParts.Add(vagon);
-        }
 
         currentIndex = Mathf.Clamp(currentIndex, 0, allParts.Count - 1);
+
+        MoveToCurrent();
     }
+
 
     void MoveToCurrent()
     {
-        if (cameraPivot != null && allParts.Count > 0)
-        {
-            Transform target = allParts[currentIndex];
-
-            cameraPivot.position = target.position;
-            cameraPivot.rotation = target.rotation;
-
-            Debug.Log("Kabin pozisyonu güncellendi: " + target.name);
-        }
+        StopAllCoroutines();
+        StartCoroutine(SmoothMoveToCurrent());
     }
 
+    IEnumerator SmoothMoveToCurrent()
+    {
+        if (cameraPivot == null || allParts.Count == 0)
+            yield break;
+
+        Transform target = allParts[currentIndex];
+
+        Vector3 startPos = cameraPivot.position;
+        Quaternion startRot = cameraPivot.rotation;
+
+        Vector3 targetPos = target.position;
+        Quaternion targetRot = target.rotation;
+
+        float t = 0;
+        float duration = 0.3f; 
+
+        while (t < 1f)
+        {
+            t += Time.deltaTime / duration;
+            cameraPivot.position = Vector3.Lerp(startPos, targetPos, t);
+            cameraPivot.rotation = Quaternion.Slerp(startRot, targetRot, t);
+            yield return null;
+        }
+    }
 
 
     public void MoveNext()
     {
-        Debug.Log("Y tuşuna basıldı");
         currentIndex++;
         if (currentIndex >= allParts.Count)
             currentIndex = allParts.Count - 1;
@@ -76,7 +81,6 @@ public class VagonCabin : MonoBehaviour
 
     public void MovePrevious()
     {
-        Debug.Log("U tuşuna basıldı");
         currentIndex--;
         if (currentIndex < 0)
             currentIndex = 0;

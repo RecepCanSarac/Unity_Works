@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40956424da32e742a2f38f5749984b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Type: 2
   turretObject: {fileID: 0}
 --- !u!114 &8540256175401213304
 MonoBehaviour:

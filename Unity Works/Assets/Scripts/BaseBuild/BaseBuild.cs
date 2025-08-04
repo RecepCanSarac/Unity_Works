@@ -41,7 +41,6 @@ public class BaseBuild : MonoBehaviour
         {
             insideTheBuild = false;
             firstIn = true;
-            SwitchToKabinCamera(false);
         }
     }
 

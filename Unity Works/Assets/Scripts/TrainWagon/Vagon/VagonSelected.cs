@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class VagonSelected : MonoBehaviour
 {
+    public WagonType Type;
+    
     private CameraController cameraController;
     private LokomotifController lokomotifController;
     public GameObject turretObject;
