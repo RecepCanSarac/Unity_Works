@@ -133,6 +133,7 @@ MonoBehaviour:
   followDistance: 3
   moveSpeed: 5
   rotationSpeed: 4
+  isMove: 1
 --- !u!114 &2600462083039893992
 MonoBehaviour:
   m_ObjectHideFlags: 0

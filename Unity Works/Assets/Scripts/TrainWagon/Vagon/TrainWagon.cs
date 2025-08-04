@@ -8,7 +8,7 @@ public class TrainWagon : MonoBehaviour
     public float followDistance = 3f;
     public float moveSpeed = 10f;
     public float rotationSpeed = 10f;
-
+    public bool isMove = true;
     private void Start()
     {
         if (raySource == null)
@@ -17,7 +17,7 @@ public class TrainWagon : MonoBehaviour
 
     void Update()
     {
-        if (raySource == null || raySource.GetRailCount() <= 1 || leadingWagon == null)
+        if (raySource == null || raySource.GetRailCount() <= 1 || leadingWagon == null || !isMove)
             return;
 
         Vector3 behindTarget = leadingWagon.position - leadingWagon.forward * followDistance;
