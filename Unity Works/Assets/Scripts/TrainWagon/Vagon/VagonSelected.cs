@@ -8,7 +8,7 @@ public class VagonSelected : MonoBehaviour
     private CameraController cameraController;
     private LokomotifController lokomotifController;
     public GameObject turretObject;
-
+    
     private void Awake()
     {
         cameraController = Camera.main.GetComponent<CameraController>();

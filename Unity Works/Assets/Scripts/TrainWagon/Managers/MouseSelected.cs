@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MouseSelected : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class MouseSelected : MonoBehaviour
 
     void RayHitMethod()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit))
         {
             if (hit.collider.CompareTag("TrainPart"))

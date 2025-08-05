@@ -13,6 +13,7 @@ public class VagonCabin : MonoBehaviour
     public int currentIndex = 0;
 
     public GameObject vagonBuyPanel;
+    public GameObject WagonPanel;
 
     void Start()
     {
@@ -20,10 +21,6 @@ public class VagonCabin : MonoBehaviour
         MoveToCurrent();
     }
 
-    void Update()
-    {
-    }
-    
     public void RefreshList()
     {
         allParts.Clear();
@@ -42,6 +39,8 @@ public class VagonCabin : MonoBehaviour
 
     void MoveToCurrent()
     {
+        if (!gameObject.activeInHierarchy)
+            return;
         if (vagonBuyPanel != null)
         {
             bool lokomotifteyiz = currentIndex == 0;
@@ -73,6 +72,7 @@ public class VagonCabin : MonoBehaviour
             t += Time.deltaTime / duration;
             cameraPivot.position = Vector3.Lerp(startPos, targetPos, t);
             cameraPivot.rotation = Quaternion.Slerp(startRot, targetRot, t);
+            cameraPivot.transform.position = new Vector3(cameraPivot.transform.position.x, -.5f, cameraPivot.transform.position.z);
             yield return null;
         }
     }
@@ -85,6 +85,7 @@ public class VagonCabin : MonoBehaviour
             currentIndex = allParts.Count - 1;
 
         MoveToCurrent();
+        WagonPanel.SetActive(false);
     }
 
     public void MovePrevious()
@@ -94,6 +95,7 @@ public class VagonCabin : MonoBehaviour
             currentIndex = 0;
 
         MoveToCurrent();
+        WagonPanel.SetActive(false);
     }
 
     private void OnDisable()

@@ -13,6 +13,8 @@ public class LokomotifController : MonoBehaviour
     public Transform targetPoint;
     private bool moveToTarget = false;
     private BaseBuild baseBuild;
+    
+    public GameObject WagonBuyPanel;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -82,6 +84,7 @@ public class LokomotifController : MonoBehaviour
 
     public void RestartTrainMovement()
     {
+        WagonBuyPanel.SetActive(false);
         isMove = true; 
         moveSpeed = 5f;
         baseBuild.firstIn = false;

@@ -6,7 +6,6 @@ public class BaseBuild : MonoBehaviour
     public float Radius = 10f;
     public LayerMask targetMask;
     public Vector3 cameraLongLook;
-    public Vector3 cameraShortLook;
     public bool insideTheBuild = false;
     public Transform targetPoint;
     public bool firstIn = true;

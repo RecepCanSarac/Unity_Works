@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class VagonSpawner : MonoBehaviour
 {
@@ -30,8 +31,14 @@ public class VagonSpawner : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            AddNewVagon(wagonData[Random.Range(0, wagonData.Count)]);
+        }
+    }
 
-   
     public void AddNewVagon(WagonData data)
     {
         if (!hasSpawned)
